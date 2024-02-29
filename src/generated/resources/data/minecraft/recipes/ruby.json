@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "chocolate:end_stone_ruby_ore"
+  },
+  "result": "chocolate:ruby",
+  "experience": 1.5,
+  "cookingtime": 100
+}

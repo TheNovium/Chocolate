@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "chocolate:raw_crab_meat"
+  },
+  "result": "chocolate:cooked_crab_meat",
+  "experience": 0.8,
+  "cookingtime": 100
+}

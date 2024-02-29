@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:string_from_claw"
+    ]
+  },
+  "criteria": {
+    "string_creation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chocolate:crab_claw"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:white_wool"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:string_from_claw"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "string_creation",
+      "has_the_recipe"
+    ]
+  ]
+}

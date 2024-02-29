@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "chocolate:mushroom_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 985736352,
+    "spacing": 8,
+    "separation": 5,
+    "type": "minecraft:random_spread"
+  }
+}

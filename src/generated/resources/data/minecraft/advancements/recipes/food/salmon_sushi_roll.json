@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:salmon_sushi_roll"
+    ]
+  },
+  "criteria": {
+    "rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chocolate:rice"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dried_kelp"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:salmon"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:salmon_sushi_roll"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rice",
+      "has_the_recipe"
+    ]
+  ]
+}

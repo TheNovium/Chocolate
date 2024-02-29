@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chocolate",
+  "pattern": [
+    "r",
+    "s",
+    "s"
+  ],
+  "key": {
+    "r": {
+      "item": "chocolate:ruby"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chocolate:ruby_shovel"
+  }
+}

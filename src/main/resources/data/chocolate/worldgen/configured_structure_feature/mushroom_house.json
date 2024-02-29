@@ -1,0 +1,12 @@
+{
+  "type": "chocolate:mushroom_house",
+  "config": {
+    "start_pool": "chocolate:mushroom_house/start_pool",
+    "size": 2
+  },
+
+  "biomes": "#chocolate:has_structure/mushroom_house",
+  "adapt_noise": true,
+  "spawn_overrides": {
+  }
+}

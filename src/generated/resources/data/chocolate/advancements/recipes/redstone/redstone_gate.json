@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "chocolate:redstone_gate"
+    ]
+  },
+  "criteria": {
+    "redstone_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_torch"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:quartz"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "chocolate:redstone_gate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redstone_gate",
+      "has_the_recipe"
+    ]
+  ]
+}

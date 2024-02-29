@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "chocolate:crab_boots"
+    ]
+  },
+  "criteria": {
+    "crab_claw_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chocolate:crab_claw"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "chocolate:crab_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crab_claw_boots",
+      "has_the_recipe"
+    ]
+  ]
+}

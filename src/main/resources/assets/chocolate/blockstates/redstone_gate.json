@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=east,mode=and,powered=false": {
+      "y": 270,
+      "model": "chocolate:block/redstone_gate"
+    },
+    "facing=east,mode=and,powered=true": {
+      "y": 270,
+      "model": "chocolate:block/redstone_gate_on"
+    },
+    "facing=east,mode=nor,powered=false": {
+      "y": 270,
+      "model": "chocolate:block/redstone_gate_nor"
+    },
+    "facing=east,mode=nor,powered=true": {
+      "y": 270,
+      "model": "chocolate:block/redstone_gate_nor_on"
+    },
+    "facing=east,mode=xor,powered=false": {
+      "y": 270,
+      "model": "chocolate:block/redstone_gate_xor"
+    },
+    "facing=east,mode=xor,powered=true": {
+      "y": 270,
+      "model": "chocolate:block/redstone_gate_xor_on"
+    },
+    "facing=north,mode=and,powered=false": {
+      "y": 180,
+      "model": "chocolate:block/redstone_gate"
+    },
+    "facing=north,mode=and,powered=true": {
+      "y": 180,
+      "model": "chocolate:block/redstone_gate_on"
+    },
+    "facing=north,mode=nor,powered=false": {
+      "y": 180,
+      "model": "chocolate:block/redstone_gate_nor"
+    },
+    "facing=north,mode=nor,powered=true": {
+      "y": 180,
+      "model": "chocolate:block/redstone_gate_nor_on"
+    },
+    "facing=north,mode=xor,powered=false": {
+      "y": 180,
+      "model": "chocolate:block/redstone_gate_xor"
+    },
+    "facing=north,mode=xor,powered=true": {
+      "y": 180,
+      "model": "chocolate:block/redstone_gate_xor_on"
+    },
+    "facing=south,mode=and,powered=false": {
+      "model": "chocolate:block/redstone_gate"
+    },
+    "facing=south,mode=and,powered=true": {
+      "model": "chocolate:block/redstone_gate_on"
+    },
+    "facing=south,mode=nor,powered=false": {
+      "model": "chocolate:block/redstone_gate_nor"
+    },
+    "facing=south,mode=nor,powered=true": {
+      "model": "chocolate:block/redstone_gate_nor_on"
+    },
+    "facing=south,mode=xor,powered=false": {
+      "model": "chocolate:block/redstone_gate_xor"
+    },
+    "facing=south,mode=xor,powered=true": {
+      "model": "chocolate:block/redstone_gate_xor_on"
+    },
+    "facing=west,mode=and,powered=false": {
+      "y": 90,
+      "model": "chocolate:block/redstone_gate"
+    },
+    "facing=west,mode=and,powered=true": {
+      "y": 90,
+      "model": "chocolate:block/redstone_gate_on"
+    },
+    "facing=west,mode=nor,powered=false": {
+      "y": 90,
+      "model": "chocolate:block/redstone_gate_nor"
+    },
+    "facing=west,mode=nor,powered=true": {
+      "y": 90,
+      "model": "chocolate:block/redstone_gate_nor_on"
+    },
+    "facing=west,mode=xor,powered=false": {
+      "y": 90,
+      "model": "chocolate:block/redstone_gate_xor"
+    },
+    "facing=west,mode=xor,powered=true": {
+      "y": 90,
+      "model": "chocolate:block/redstone_gate_xor_on"
+    }
+  }
+}
